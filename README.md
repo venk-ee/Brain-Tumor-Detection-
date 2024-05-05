@@ -19,6 +19,24 @@ Ensure you have the following dependencies installed:
     TensorFlow
     Keras
     Flask (for the web UI)
+Input Images
+
+To use the trained model for testing or prediction, follow these steps to prepare and input images:
+
+    Gather MRI Scan Images: Collect MRI scan images of the brain that you want to analyze for the presence of tumors. Ensure that the images are in a compatible format 
+    supported by the model (e.g., JPEG, PNG).
+
+    Preprocess Images (Optional): Depending on the requirements of your model and preprocessing steps applied during training, you may need to preprocess the input images. 
+    This could involve resizing, normalization, or other transformations to ensure consistency with the training data.
+
+    Run Model Testing Script: Utilize the provided mainTest.py script to test the trained model on the input images. This script will load the trained model and perform     
+    predictions on the input data.
+
+    Interpret Results: After running the testing script, interpret the results to determine the model's predictions for each input image. Results may include probabilities or 
+    confidence scores for tumor presence or absence.
+
+    Visualize Results (Optional): Optionally, visualize the results of the model predictions alongside the input images for further analysis and interpretation. This can help 
+    in understanding the model's performance and identifying any areas for improvement.
 
 Training the Model
 
