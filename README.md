@@ -1,6 +1,6 @@
 Brain Tumor Detection using VGG-16 CNN Model
-Overview
 
+Overview
 This project aims to develop a Convolutional Neural Network (CNN) model for classifying whether a subject has a brain tumor or not based on MRI scans. The model utilizes the VGG-16 architecture and pre-trained weights for training on a binary classification task. Additionally, a web user interface (UI) is provided to facilitate user inputs for tumor detection.
 Model Performance
 
@@ -10,6 +10,7 @@ The model's performance is evaluated using accuracy as the metric:
     Test Set Accuracy: Approximately 80%
 
 Usage
+
 Dependencies
 
 Ensure you have the following dependencies installed:
@@ -19,12 +20,15 @@ Ensure you have the following dependencies installed:
     Keras
     Flask (for the web UI)
 
-Running the Model
+Training the Model
 
-    Clone this repository to your local machine.
-    Navigate to the project directory.
-    Run the train_model.py script to train the CNN model using the VGG-16 architecture and pre-trained weights.
-    After training, you can use the trained model for predictions.
+    Run mainTrain.py script to train the CNN model using the VGG-16 architecture and pre-trained weights.
+    The trained model will be saved as BrainTumor10Epochs.h5.
+
+Testing the Model
+
+    Run mainTest.py script to test the trained model on test data.
+    Evaluate the model's performance on the test set.
 
 Web UI
 
@@ -42,7 +46,7 @@ Further Improvements
 
 Contributors
 
-    VENKATANATHA AV
-    NINAD AITHAL 
+    VENKATANATHA AV [CNN]
+    NINAD AITHAL[WEB UI]
     
 
