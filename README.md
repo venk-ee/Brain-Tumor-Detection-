@@ -62,9 +62,6 @@ Further Improvements
     Clinical Validation: Conduct rigorous validation studies to evaluate the model's performance on real-world clinical data.
     User Interface Enhancements: Improve the user interface for better usability and accessibility.
 
-Contributors
-
-    VENKATANATHA AV 
    
     
 
