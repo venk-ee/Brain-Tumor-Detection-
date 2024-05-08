@@ -53,6 +53,8 @@ Web UI
     Ensure you have Flask installed (pip install flask).
     Run the app.py script to start the Flask web server.
     Access the web UI through your browser and provide the required inputs for tumor detection.
+    
+![brain tumor result](https://github.com/venk-ee/Brain-Tumor-Detection-/assets/162578570/4fca44ec-b563-41c7-b1e0-ab97610f6b82)
 
 Further Improvements
 
